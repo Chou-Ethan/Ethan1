@@ -1,0 +1,47 @@
+<html>
+<head>
+    <link rel="stylesheet" href="Alpha.css">
+    <link rel="stylesheet" href="Ethan.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@900&family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <title>Ethan</title>
+</head>
+<body>
+    <div class="banner">
+        <div class="blocks">
+            <div class="navbar">
+                <a href="Ethan.html"><img src="ethan thing.PNG" class="logo"></a>
+                 <ul>
+                    <li><a href="Beta.html">Introduction</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Help</a></li>
+                    <li><a href="#">Donate</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <h1>ETHAN INDUSTRY</h1>
+        <a href="https://www.lamborghini.com/en-en"><button class="button"><span>Enter</span></button></a>
+    </div>
+    <!--icons--> 
+    <div class="container">
+        <a href="https://www.apple.com/tw/"><i class="fa fa-apple" id="apple"></i></a>
+        <a href="https://twitter.com/?lang=zh-Hant"><i class="fa fa-twitter" id="twitter"></i></a>
+        <a href="https://github.com/"><i class="fa fa-github-square github" id="github"></i></a>
+        <a href="https://zh-tw.facebook.com/login/device-based/regular/login/?login_attempt=1"><i class="fa fa-facebook-square" id="facebook"></i></a>
+      </div>
+    <section>
+        <script>
+            const banner = document.getElementsByClassName('banner')[0];
+            const blocks = document.getElementsByClassName('blocks');
+            for(var i = 1; i<400; i++){
+                banner.innerHTML += "<div class= 'blocks'></div>";
+                blocks[i].style.animationDelay = `${i * 0.05}s` ;
+            }
+        </script>
+    </section>   
+</body>
+
+</html>
